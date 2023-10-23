@@ -1,11 +1,13 @@
+import {useEffect} from "react";
+import LoginPortal from "./login/loginPortal";
+
 function App() {
-  return (
-      <div>
-        <h1>Hello World!</h1>
-        <div> This is a text</div>
-        <div> <button>Click Me</button> </div>
-      </div>
-  );
+    return (
+        // <Routes>
+            // <Route path="/" element={<LoginPortal />} />
+        // </Routes>
+        <LoginPortal />
+    );
 }
 
 export default App;
